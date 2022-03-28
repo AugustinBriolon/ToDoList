@@ -1,4 +1,4 @@
-# Template-Countdown
+# ToDoList
 
 This is a ToDoList project in JS.
 
