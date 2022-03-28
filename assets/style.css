@@ -10,6 +10,14 @@ body {
     min-height: 100vh;
 }
 
+@media screen and (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+}
+
 header {
     font-size: 1.5rem;
 }
@@ -28,6 +36,19 @@ form {
 
 form {
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .form {
+        justify-content: center;
+    }
+    .form .todo-input {
+        width: 75%;
+        border-radius: 0%;
+    }
+    .todo-btn {
+        width: 15%;
+    }
 }
 
 form input,
@@ -127,7 +148,7 @@ select {
     font-size: 1rem;
 }
 
-.select{
+.select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
