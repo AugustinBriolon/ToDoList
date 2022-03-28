@@ -6,12 +6,16 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f0dea3;
+    background-color: #0D1B2A;
     min-height: 100vh;
 }
 
 header {
     font-size: 1.5rem;
+}
+
+h1 {
+    color: white;
 }
 
 header,
@@ -35,14 +39,14 @@ form button {
 }
 
 form button {
-    color: #d88771;
+    color: #415A77;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover {
-    background: #d88771;
+    background: #415A77;
     color: white;
 }
 
@@ -82,7 +86,7 @@ form button:hover {
 
 .trash-btn,
 .check-btn {
-    background: #ff6f47;
+    background: #ff5c47;
     color: white;
     border: none;
     padding: 1rem;
@@ -92,7 +96,7 @@ form button:hover {
 }
 
 .check-btn {
-    background: rgb(73, 204, 73);
+    background: #778DA9;
 }
 
 .fa-trash,
@@ -116,10 +120,11 @@ select {
     appearance: none;
     outline: none;
     border: none;
-    color: #ff6f47;
+    color: #415A77;
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
+    font-size: 1rem;
 }
 
 .select{
@@ -132,7 +137,7 @@ select {
 .select::after {
     content: "\25BC";
     position: absolute;
-    background: #ff6f47;
+    background: #415A77;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -142,5 +147,5 @@ select {
 
 .select:hover::after {
     background: white;
-    color: #ff6f47;
+    color: #415A77;
 }
