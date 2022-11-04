@@ -20,10 +20,15 @@ body {
 
 header {
     font-size: 1.5rem;
+    flex-direction: column;
 }
 
-h1 {
+h1, a {
     color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 header,
